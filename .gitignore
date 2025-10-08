@@ -1,8 +1,24 @@
-venv/
-.env
-logs/
-exports/
+# ==== Flutter / build artifacts (global) ====
+.dart_tool/
+**/.dart_tool/
 build/
-bin/
-*.pyc
-__pycache__/
+**/build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+ios/Pods/
+android/.gradle/
+android/local.properties
+
+# ==== Windows ephemeral (DO NOT COMMIT) ====
+windows/flutter/ephemeral/
+**/windows/flutter/ephemeral/
+AIChatFlutter/windows/flutter/ephemeral/
+
+# ==== Secrets ====
+.env
+
+# ==== Binaries & debug symbols ====
+*.dll
+*.exe
+*.pdb

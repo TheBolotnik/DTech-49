@@ -1,4 +1,3 @@
-
 # AIChatFlutter — безопасный чат с ИИ (OpenRouter.ai / VseGPT.ru)
 
 ## Описание проекта
